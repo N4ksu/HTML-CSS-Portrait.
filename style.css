@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    background: #000;
+  
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .portrait {
+    font-size: 8
+      px;
+    line-height: 10px;
+    background: url('https://i.pinimg.com/736x/a9/2f/13/a92f13dcdc106096d914a1dc8b0d9f15.jpg') fixed center no-repeat;
+    background-size: contain;
+  }
+  
+  /* This part is important for the feature itself */
+  .portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.1);
+  }
+  
